@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;700 & display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    .descuento{
+        background-color: #1CD1B0;
+        padding: 10px;
+    }
+
+    nav{
+        position: sticky; 
+        top: 30px;
+        background-color: #00669F;
+        padding: 25px;
+        font-size: 40px;
+    }
+    .bloque1{position: relative;
+        width: 300px;
+        background-image: url(../Img/imagen\ derecha.png);
+        background-repeat: no-repeat;
+        margin-top: 150px;
+        margin-left: 100px;
+        height: 530px;
+    }
+    .imagen-circular{
+        position: absolute;
+        margin: 126px 89px 91px;
+    }
+    h2{
+        position: absolute;
+        margin-top: 286px;
+        margin-left: 100px;
+        z-index: 1;
+    }
+    .texto-cuadro{ width: 300px;
+        position: absolute;
+        margin-top: 320PX;
+        text-align: justify;
+    }
+    .boton-cuadro{
+        color: white;
+        position: absolute;
+        width: 129px;
+        height: 49px;
+        background-color: #00669F;
+        z-index: 10;
+        margin-top: 463px;
+        margin-left: 85px;
+        line-height: 50px;
+        text-align: center;  
+    }
+    .bloque2{position: relative;
+        width: 300px;
+        background-image: url(../Img/imagen\ medio.png);
+        background-repeat: no-repeat;
+        margin-top: -533px;
+        margin-left: 600px;
+        height: 530px;
+    }
+    .imagen-circular-centro{
+        position: absolute;
+        margin: 126px 89px 91px;
+    }
+    .bloque3{position: relative;
+        width: 300px;
+        background-image: url(../Img/imagen\ izquierda.png);
+        background-repeat: no-repeat;
+        margin-top: -533px;
+        margin-left: 1100px;
+        height: 530px;
+    }
+    footer{background-color: #00669F;
+        color: white;
+        padding: 20PX;
+        margin-top: 100PX;
+    }
