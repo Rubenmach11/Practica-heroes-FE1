@@ -53,6 +53,10 @@
         line-height: 50px;
         text-align: center;  
     }
+    .imagen-corazon{position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
     .bloque2{position: relative;
         width: 300px;
         background-image: url(../Img/imagen\ medio.png);
@@ -61,6 +65,8 @@
         margin-left: 600px;
         height: 530px;
     }
+
+    
     .imagen-circular-centro{
         position: absolute;
         margin: 126px 89px 91px;
